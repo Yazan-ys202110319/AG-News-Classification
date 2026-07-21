@@ -1,10 +1,10 @@
 # AG News Classification with PyTorch
 
-This project is a hands-on PyTorch learning notebook for building a news topic classification model on the AG News dataset. The goal is to understand the full text-classification workflow by working through data loading, preprocessing, model building, training, and evaluation in one place.
+This project is a PyTorch learning notebook for text classification on the AG News dataset. It focuses on understanding the full workflow of building an LSTM-based model, from loading data to making predictions.
 
 ## Project Goal
 
-The notebook is designed to help you learn PyTorch by implementing an AG News classifier step by step. It uses the Hugging Face `datasets` library to load the dataset and provides a starting point for experimenting with a custom text classification model.
+The goal is to learn PyTorch by implementing a news classifier step by step. The notebook covers data loading, preprocessing, vocabulary building, tokenization, padding, model creation, training, and evaluation.
 
 ## Dataset
 
@@ -19,29 +19,20 @@ The project uses the AG News dataset, which contains news headlines and descript
 
 - How to load and inspect a text dataset with Hugging Face
 - How to prepare text data for PyTorch models
-- How to build a neural network for multi-class text classification
-- How to train and evaluate a model on AG News
-- How to iterate on model performance with experiments
+- How to build an LSTM model for multi-class classification
+- How to train and evaluate a model in PyTorch
+- How to run inference on new text samples
 
-## Files
+## How to Run
 
-- [main.ipynb](main.ipynb): main notebook for the project
+1. Open the project in VS Code.
+2. Install the required packages:
 
-## Getting Started
+```bash
+pip install -r requirements.txt
+```
 
-1. Install the required Python packages.
-2. Open [main.ipynb](main.ipynb).
-3. Run the cells in order to explore the dataset and build the model.
-
-### Suggested Dependencies
-
-- `torch`
-- `datasets`
-- `numpy`
-- `pandas`
-
-If you want to extend the notebook later, you may also find `scikit-learn` and `matplotlib` useful for evaluation and visualization.
-
-## Notes
-
-This repository is currently focused on learning and experimentation rather than a production-ready pipeline. The notebook is intended to grow as the model, preprocessing, and evaluation steps are developed.
+3. Open `main.ipynb`.
+4. Run the notebook cells from top to bottom.
+5. Train the model and use the final cell to test predictions on new text.
+   
