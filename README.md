@@ -1,6 +1,7 @@
 # AG News Classification with PyTorch
 
-This project is a PyTorch learning notebook for text classification on the AG News dataset. It focuses on understanding the full workflow of building an LSTM-based model, from loading data to making predictions.
+This project is a PyTorch learning notebook for text classification on the AG News dataset. It focuses on understanding the full workflow of building an LSTM-based model from scratch, from loading data to making predictions.
+
 
 ## Project Goal
 
