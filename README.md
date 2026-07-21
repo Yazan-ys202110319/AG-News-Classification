@@ -16,7 +16,7 @@ The project uses the AG News dataset, which contains news headlines and descript
 - Business
 - Sci/Tech
 
-## What You Will Learn
+## The Main Lessons From The Project
 
 - How to load and inspect a text dataset with Hugging Face
 - How to prepare text data for PyTorch models
